@@ -1,13 +1,12 @@
 import { useState } from "react";
 import "./App.css";
+import { Layout } from "./pages/Layout.jsx";
 
 function App() {
   return (
-    <>
-      <div>
-        <h1></h1>
-      </div>
-    </>
+    <div>
+      <Layout />
+    </div>
   );
 }
 

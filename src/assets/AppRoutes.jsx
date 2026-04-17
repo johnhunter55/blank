@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Home } from "./Home.jsx";
+import { Layout } from "../pages/Layout.jsx";
 
 export function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Layout />} />
     </Routes>
   );
 }
